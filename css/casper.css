@@ -36,7 +36,7 @@ ul{
     padding-right: 15px;
     padding-left: 15px;
     margin: auto;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 /* End Global Values */
 /* Start Varaibles */
@@ -105,6 +105,7 @@ header .container{
     justify-content: space-between;
     position: relative;
     min-height: 97px;
+    overflow: visible !important;
 }
 header .container::after{
     content: '';
