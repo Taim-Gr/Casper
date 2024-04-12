@@ -608,7 +608,7 @@ header .form i{
 .skills .container{
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 .skills .container .box{
     flex-basis: 50%;
