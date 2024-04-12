@@ -20,7 +20,7 @@ ul{
 @media (min-width:768px){
     .container{
         width: 750px;
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 @media (min-width:992px){
@@ -37,6 +37,7 @@ ul{
     padding-right: 15px;
     padding-left: 15px;
     margin: auto;
+    overflow-x: visible;
 }
 /* End Global Values */
 /* Start Varaibles */
