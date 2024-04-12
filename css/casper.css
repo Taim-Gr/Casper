@@ -521,6 +521,9 @@ header .form i{
     padding-bottom: var(--section-padding);
     overflow: hidden;
 }
+.about .container{
+    overflow-x: visible !important;
+}
 .about-pic{
     width: 100%;
     background-image: url(../images/about.jpg);
